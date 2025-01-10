@@ -37,7 +37,13 @@ This shows all changes made in a file
 - line starting with '-' represents: line removed
 - line starting with '+' represents: line added
 
-- to compare stagging area with last commit
+To compare stagging area with last commit
 ```
 git diff --staged
+```
+
+# directly commit (Not Recommended)
+- to skip adding into stagging area and commit all files directly,
+```
+git commit -a -m "commit message"
 ```
