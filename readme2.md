@@ -36,8 +36,7 @@ git commit
 This opens VIM editor, write commit message (like "Initial Commit") then save quit file.
 Now, all staged files are commited (git tracks their changes).
 
-# touch
-- To create blank file (about.html) in current directory
+- we can directly commit files without openig VIM editor
 ```
-touch about.html
+git commit -m "commit message"
 ```
