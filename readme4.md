@@ -14,3 +14,30 @@ git checkout about.html
 ```
 git checkout -f
 ```
+
+# git log
+- to get all information about all commits (what, when and by whom)
+```
+git log
+```
+
+- to see last 5 commits
+```
+git log -p -2
+```
+This will show few but detailed commits (what changes made)
+
+# git diff
+- to check what changes made in file,
+```
+git diff
+```
+This shows all changes made in a file
+- pink color text represents: No changes made
+- line starting with '-' represents: line removed
+- line starting with '+' represents: line added
+
+- to compare stagging area with last commit
+```
+git diff --staged
+```
