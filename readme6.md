@@ -14,3 +14,5 @@ git branch branch_name
 ```
 git checkout branch_name
 ```
+
+- now, if we again checkout to other branch, changes will be seen in it. To merge changes into main branch,
