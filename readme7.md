@@ -12,6 +12,7 @@ it means "add given remote url into git and name it as origin"
 - now we can check git remote name, `git remote`
 - to check remote url, `git remote -v`
 
+# git psuh
 - to push out code from branch (main) to remote (origin),
 ```
 git push -u origin main
@@ -22,3 +23,12 @@ git push -u origin main
 git checkout feature1
 git push -u origin feature1
 ```
+
+- next time, just write `git push`, it will push the branch to the origin in last `git push -u`
+
+# git clone
+- to save copied code from some git repository into a new directory dirname,
+```
+git clone github-url.git dirname
+```
+If dirname not provided, the new directory will be named by repository name
