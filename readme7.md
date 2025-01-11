@@ -14,5 +14,11 @@ it means "add given remote url into git and name it as origin"
 
 - to push out code from branch (main) to remote (origin),
 ```
-git push origin main
+git push -u origin main
+```
+
+- similarly, can also push other branches (first checkout to that branch),
+```
+git checkout feature1
+git push -u origin feature1
 ```
