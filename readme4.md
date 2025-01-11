@@ -48,7 +48,7 @@ git diff --staged
 git commit -a -m "commit message"
 ```
 
-#
+# git rm
 - To Remove a file (waste.html) not needed, only from stagging area (not hard disk)
 ```
 git rm --cached waste.html

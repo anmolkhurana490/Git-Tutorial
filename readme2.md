@@ -16,6 +16,14 @@ las -lart
 git status
 ```
 
+- to get status of files (in summarized way)
+```
+git status -s
+```
+This shows M's (modified) in 2 blocks
+- first block (having green M) represents Modified in Stagging area
+- second block (having red M) represents Modified in Working directory
+
 # git add
 - To add file (index.html) into stagging area
 ```
